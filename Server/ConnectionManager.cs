@@ -29,6 +29,7 @@ namespace Server
         public static bool TcpConnected
         {
             get => _tcpConnected;
+            
             set
             {
                 if(_tcpConnected == value) return;
