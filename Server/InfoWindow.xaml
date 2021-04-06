@@ -1,0 +1,54 @@
+﻿<Window x:Class="Server.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Server"
+        mc:Ignorable="d"
+        Title="InfoWindow" Height="450" Width="800" Closing="InfoWindow_OnClosing">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Control.FontSize" Value="30" />
+            <Setter Property="Control.VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Control.HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+ 
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Screen"></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Offline" Foreground="Red" Name="Screen"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="KeyLogger"></TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Offline" Foreground="Red" Name="KeyLogger"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Udp"></TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Text="Offline" Foreground="Red" Name="Udp"></TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Tcp"></TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" Text="Offline" Foreground="Red" Name="Tcp"></TextBlock>
+        </Grid>
+    </Grid>
+</Window>

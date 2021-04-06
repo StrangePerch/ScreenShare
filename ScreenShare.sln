@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{130A4AE9-9AE1-4C29-9C1E-AC4F75150693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocol", "Protocol\Protocol.csproj", "{9DF04C31-B515-4C27-88FA-2317878351CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{A9A8F903-B7EC-4C87-A04C-8B8D5527A930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeRecovery", "Chrome-Password-Recovery-master\ChromeRecovery.csproj", "{C39CCB36-DA49-460E-98EC-DF9EA394AD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130A4AE9-9AE1-4C29-9C1E-AC4F75150693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130A4AE9-9AE1-4C29-9C1E-AC4F75150693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130A4AE9-9AE1-4C29-9C1E-AC4F75150693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130A4AE9-9AE1-4C29-9C1E-AC4F75150693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF04C31-B515-4C27-88FA-2317878351CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF04C31-B515-4C27-88FA-2317878351CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF04C31-B515-4C27-88FA-2317878351CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF04C31-B515-4C27-88FA-2317878351CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A8F903-B7EC-4C87-A04C-8B8D5527A930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A8F903-B7EC-4C87-A04C-8B8D5527A930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A8F903-B7EC-4C87-A04C-8B8D5527A930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A8F903-B7EC-4C87-A04C-8B8D5527A930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39CCB36-DA49-460E-98EC-DF9EA394AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39CCB36-DA49-460E-98EC-DF9EA394AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39CCB36-DA49-460E-98EC-DF9EA394AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39CCB36-DA49-460E-98EC-DF9EA394AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8F9CBA1-3D8F-472F-83D8-7B7AE2D9E496}
+	EndGlobalSection
+EndGlobal

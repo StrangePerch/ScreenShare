@@ -1,0 +1,44 @@
+﻿<Window x:Class="Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Server"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="MainWindow_OnClosing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="1" Grid.Column="1" Name="ScreenButton" Content="Screen" Click="ScreenButton_OnClick"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Name="AddToStartupButton" Content="AddToStartUp" Click="AddToStartupButton_OnClick"></Button>
+        <Button Grid.Row="3" Grid.Column="3" Name="RemoveFromStartupButton" Content="RemoveFromStartUp" Click="RemoveFromStartupButton_OnClick"></Button>
+        
+        <Button Grid.Row="1" Grid.Column="3" Name="KeyLogButton" Content="KeyLog" Click="KeyLogButton_OnClick"></Button>
+        <Button Grid.Row="3" Grid.Column="5" Name="CloseButton" Content="Close" Click="CloseButton_OnClick"></Button>
+        <Button Grid.Row="1" Grid.Column="5" Name="InfoButton" Content="Info" Click="InfoButton_OnClick"></Button>
+
+        <Button Grid.Row="5" Grid.Column="1" Name="PasswordButton" Content="Pass" Click="PasswordButton_OnClick"></Button>
+        <Button Grid.Row="5" Grid.Column="3" Content="WIP"></Button>
+        <Button Grid.Row="5" Grid.Column="5" Content="WIP"></Button>
+
+
+    </Grid>
+</Window>
